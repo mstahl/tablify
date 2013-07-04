@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "tablify"
   gem.homepage = "http://github.com/mstahl/tablify"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "max@dangerouscuteness.com"
-  gem.authors = ["Max Thom Stahl"]
+  gem.summary = %Q{Gussied up tables for your consoles.}
+  gem.description = %Q{Use Tablify to make prettier tabulated output in the console.}
+  gem.email = "max@villainousindustri.es"
+  gem.authors = ["max thom stahl"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
