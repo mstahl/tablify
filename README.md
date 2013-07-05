@@ -32,17 +32,6 @@ or
     | 111 | 222 |
     +-----+-----+
 
-or...
-
-    ruby> puts Tablify(foo).include(:foo, :bar)
-    +-----+-----+
-    | foo | bar |
-    +-----+-----+
-    |   1 |   2 |
-    |  11 |  22 |
-    | 111 | 222 |
-    +-----+-----+
-
 ## Contributing to tablify
  
   * Check out the latest master to make sure the feature hasn't been
