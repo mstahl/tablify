@@ -19,7 +19,11 @@ Make an array of hashes into something truly beautiful:
 What's that? You didn't want that `baz` column in there after all? Jam this
 into your input pipe and smoke it:
 
-    ruby> puts Tablify(foo).omit(:baz)
+    ruby> puts Tablify(foo, exclude: [:baz])
+
+or
+
+    ruby> puts Tablify(foo, include: [:foo, :bar])
     +-----+-----+
     | foo | bar |
     +-----+-----+
